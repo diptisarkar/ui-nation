@@ -1,5 +1,5 @@
 # UiNation
-<hr>
+
 <h3>🛠 Tech Stack I used on this project</h3>
 🌐   HTML | CSS | JavaScript 
 
