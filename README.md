@@ -4,15 +4,15 @@
 🌐   HTML | CSS | JavaScript 
 
 🌱 What I did in this project
-  ▪︎ Login/Sign-up pages
-  ▪︎ Home page,
-  ▪︎ About page,
-  ▪︎ Services page,
-  ▪︎ Contact,
+  : Login/Sign-up pages
+  ▪︎ Home page
+  ▪︎ About page
+  ▪︎ Services page
+  ▪︎ Contact
   ▪︎ Downloads
 
 🔧 Some functionalities on the project
-  ▪︎ The responsive design
+  : The responsive design
   ▪︎ Using your current scroll position, a smooth scroll effect emphasises the navbar menu
 
 👀 Visit :
