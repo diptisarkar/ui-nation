@@ -4,18 +4,18 @@
 🌐   HTML | CSS | JavaScript 
 
 🌱 What I did in this project
-  Home page
-  Profile page
-  Job page
-  Notifications page
-  Messaging page
-  Social page
+  ▪︎ Login/Sign-up pages
+  ▪︎ Home page,
+  ▪︎ About page,
+  ▪︎ Services page,
+  ▪︎ Contact,
+  ▪︎ Downloads
 
 🔧 Some functionalities on the project
-  The responsive design
-  Using your current scroll position, a smooth scroll effect emphasises the navbar menu
+  ▪︎ The responsive design
+  ▪︎ Using your current scroll position, a smooth scroll effect emphasises the navbar menu
 
-👀 Visite this project
+👀 Visit :
 https://diptisarkar.github.io/ui-nation/
 
 ⭐️ Like it? give it a star :)
