@@ -40,21 +40,22 @@
           </div>
         </form>
 
-        <form class="signup">
+        <div class="signup" name="form1">
           <div class="field">
-            <input type="email" placeholder="Email Address" id="email" required />
+            <input type="text" placeholder="Email Address" id="email" name="text1" required />
           </div>
           <div class="field">
-            <input type="password" placeholder="Password" id="pass" required />
+            <input type="password" placeholder="Password" id="pass" maxlength="20" minlength="8" required />
           </div>
           <div class="field">
-            <input type="password" placeholder="Confirm password" id="conf_pass" required />
+            <input type="password" placeholder="Confirm password" id="conf_pass" maxlength="20" minlength="8"
+              required />
           </div>
           <div class="field btn">
             <div class="btn-layer"></div>
             <input type="submit" value="Signup" onclick="checkpassword();" />
           </div>
-        </form>
+        </div>
       </div>
     </div>
   </div>
@@ -78,13 +79,22 @@
     };
 
     function checkpassword() {
+
+      var email = document.getElementById("email").value;
       var password = document.getElementById("pass").value;
       var confirm_password = document.getElementById("conf_pass").value;
-      if (password === confirm_password) {
-        return alert("Password matched");
+
+      if ((email.includes("@")) && (email.includes("."))) {
+        // alert("email format correct")
+        if (password === confirm_password) {
+          window.location.href = "/"
+        }
+        if (password !== confirm_password) {
+          alert("Password not matched");
+        }
       }
-      if (password !== confirm_password) {
-        return alert("Password not matched");
+      else {
+        alert("please enter correct email")
       }
     }
   </script>
